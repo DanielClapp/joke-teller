@@ -35,6 +35,10 @@ button {
   background-repeat: no-repeat;
 }
 
+.button_container {
+  padding-top: 8rem;
+}
+
 button:hover {
   filter: brightness(90%);
 }
