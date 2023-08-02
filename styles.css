@@ -36,7 +36,7 @@ button {
 }
 
 .button_container {
-  padding-top: 8rem;
+  padding-top: 4rem;
 }
 
 button:hover {
@@ -55,6 +55,8 @@ button:disabled {
 
 @media screen and (max-width: 1000px) {
   button {
+    width: 210px;
+    height: 70px;
     box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
   }
 }
