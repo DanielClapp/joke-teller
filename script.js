@@ -109,7 +109,6 @@ function toggleButton() {
 }
 
 function tellMe(joke) {
-  console.log('tell me:', joke);
   VoiceRSS.speech({
     key: '6297b78b27b140e0b3dd8d1b24b6355b',
     src: joke,
